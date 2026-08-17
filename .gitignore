@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Data
+data/
+
+# Checkpoints
+*.pth
+*.pt
+*.ckpt
+# Keep final submission model
+!weights/
+!weights/detail_sr.pth
+
+# Experiment outputs
+runs/
+wandb/
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
